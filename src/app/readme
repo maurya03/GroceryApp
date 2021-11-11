@@ -1,0 +1,23 @@
+> When we install angular module then by default we get single module and component created.
+> In this i am creating a new component i.e, home.
+> We can create home.ts also but to differentiate module and component, we are adding module and component in between.
+> In this 'app.component.html' & 'app.component.css' is the file which will include in component template and styles section.
+we can create inline also.
+> Flow of this app is: main.ts -> 'appModule' will be called -> then there are two components in appModule i.e,
+    'AppComponent' & 'HomeComponent'. -> 
+> Only the source (src) file should be touched. Other files are not required to edit.
+> When we are uploading our app code on github then we exclude node_modules because size is very high and this folder
+    we can create seperately using '....'.
+> 
+
+
+ Doubts: 
+
+> Why are we not including 'home-app' component in index file, since it is only file?
+
+......................................................................................................................
+Advantages of using module and components:
+> We can divide a page into various component and each component will seperately be handled. Inshort, component manageness,
+maintenance, and distribution among members will be easy.
+> modules can seperate the relevant and irrelevant information among modules. For example: Admin, User, and Partner
+each module have some data which they don't want to share then they can do this using modules. 
